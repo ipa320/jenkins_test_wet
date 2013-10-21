@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<launch>
+        
+    <node pkg="dry1" type="talker" name="talker" output="screen"/>
+    <node pkg="dry2" type="listener" name="listener" output="screen"/>
+
+</launch>
