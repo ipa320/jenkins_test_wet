@@ -131,5 +131,5 @@ include_directories(
 # endif()
 
 ## Add folders to be run by python nosetests
-catkin_add_nosetests(test/wet.py)
+#catkin_add_nosetests(test/wet.py)
 #add_rostest(test/wet.test)
