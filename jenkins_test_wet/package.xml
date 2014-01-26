@@ -41,10 +41,8 @@
   <!--   <test_depend>gtest</test_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>wet1</build_depend>
-  <build_depend>wet0</build_depend>
   <build_depend>wet2</build_depend>
   <run_depend>wet1</run_depend>
-  <run_depend>wet0</run_depend>
   <run_depend>wet2</run_depend>
 
 

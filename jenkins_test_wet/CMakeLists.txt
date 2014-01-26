@@ -5,7 +5,6 @@ project(jenkins_test_wet)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  wet0
   wet1
   wet2
 )
@@ -55,7 +54,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES jenkins_test_wet
-#  CATKIN_DEPENDS wet0 wet1 wet2
+#  CATKIN_DEPENDS wet1 wet2
 #  DEPENDS system_lib
 )
 
