@@ -53,7 +53,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES wet1
-#  CATKIN_DEPENDS roscpp
+  CATKIN_DEPENDS roscpp
 #  DEPENDS system_lib
 )
 
@@ -74,16 +74,16 @@ include_directories(
 # )
 
 ## Declare a cpp executable
-# add_executable(wet1_node src/wet1_node.cpp)
+add_executable(talker_wet1 src/talker.cpp)
 
 ## Add cmake target dependencies of the executable/library
 ## as an example, message headers may need to be generated before nodes
 # add_dependencies(wet1_node wet1_generate_messages_cpp)
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(wet1_node
-#   ${catkin_LIBRARIES}
-# )
+target_link_libraries(talker_wet1
+  ${catkin_LIBRARIES}
+)
 
 #############
 ## Install ##
@@ -131,4 +131,5 @@ include_directories(
 # endif()
 
 ## Add folders to be run by python nosetests
-# catkin_add_nosetests(test)
+catkin_add_nosetests(test/talker.py)
+#add_rostest(test/talker.test)
