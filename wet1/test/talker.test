@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
 
-  <test test-name="sample_test" pkg="wet2" type="wet.py"/>
+  <test test-name="sample_test" pkg="wet1" type="talker.py"/>
 
 </launch> 
