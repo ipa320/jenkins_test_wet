@@ -131,5 +131,5 @@ target_link_libraries(talker_wet2
 # endif()
 
 ## Add folders to be run by python nosetests
-catkin_add_nosetests(test/talker.py)
+#catkin_add_nosetests(test/talker.py)
 #add_rostest(test/talker.test)
