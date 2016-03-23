@@ -1,4 +1,4 @@
-#include "ros/ros.h"
+#include "ros/ros.hxxx"
 #include "std_msgs/String.h"
 
 #include <sstream>
